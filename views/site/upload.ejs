@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('../partials/_header.ejs') %>
+   <!-- body -->
+
+   <%- include('../partials/_navigation.ejs') %>
+      <!-- end header inner -->
+      <!-- contact -->
+      <div class="contact">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12 ">
+                  <div class="titlepage text_align_center">
+                     <span>06</span>
+                     <h2>Requste A Call Back</h2>
+                  </div>
+               </div>
+               <div class="col-md-8 offset-md-2">
+                  <!-- <div class="col-md-12">
+                           <input class="form_cont" placeholder="Message" type="type" name="message">
+                        </div> -->
+                  <form action="/photos" method="post" novalidate class="main_form">
+                     <div class="row">
+                        <div class="col-md-12">
+                           <input type="text" class="form_control" name="name" placeholder="Name" id="name" required
+                              data-validation-required-message="Please enter your name.">
+                        </div>
+                        <div class="col-md-12">
+                           <input type="text" class="form_control" name="description" placeholder="Description"
+                              id="description" required data-validation-required-message="Please enter description.">
+                        </div>
+                        <div class="col-md-12">
+                           <div class="group_form">
+                              <button class="send_btn" type="submit">Send</button>
+
+                           </div>
+                        </div>
+                     </div>
+                  </form>
+
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end contact -->
+      <!-- end footer -->
+      <%- include('../partials/_footer.ejs') %>
+         <!-- end footer -->
+
+         </body>
+
+</html>
