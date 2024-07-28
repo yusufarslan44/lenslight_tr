@@ -532,8 +532,24 @@ ul.email li i {
     color: #fff;
 }
 
+.cemara {
+    margin: 0 auto;
+    max-width: 450px;
+    max-height: 450px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 .cemara figure {
     margin: 0;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%
 }
 
 .cemara figure img {

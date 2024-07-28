@@ -1,6 +1,6 @@
 const express = require('express');
-const pageRouter = require('./router/pageRouter');
 const app = express()
+const pageRouter = require('./router/pageRouter');
 const mongoose = require('mongoose');
 const photoRouter = require('./router/photoRouter')
 const userRouter = require('./router/userRouter')
@@ -44,6 +44,6 @@ app.use('/', pageRouter)
 app.use('/photos', photoRouter)
 app.use('/users', userRouter)
 
-app.listen(3000, () => {
+app.listen(5000, () => {
     console.log("server başarıyla çalıştı")
 })
